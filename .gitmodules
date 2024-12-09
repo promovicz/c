@@ -1,6 +1,6 @@
 [submodule "deps/tinycc"]
 	path = deps/tinycc
-	url = git@github.com:promovicz/tinycc.git
+	url = https://github.com/promovicz/tinycc.git
 	branch = promovicz/mob
 [submodule "deps/bdwgc"]
 	path = deps/bdwgc

@@ -56,9 +56,17 @@ We build using CMake. You need readline. We bring our own copy of TinyCC.
 ```
 $ git clone https://github.com/promovicz/cplr.git
 $ cd cplr
+$ git submodule init
+$ git submodule update
 $ cmake .
 $ make
 $ make install
+```
+
+Alternatively you can build a docker image containing cplr with
+
+```
+$ docker build -t cplr -f Dockerfile.debian .
 ```
 
 ### Future possibilities
